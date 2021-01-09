@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html amp lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <meta name="description" content="Glad India">
+  <meta name="keywords" content="Glad India">
+  <meta name="author" content="Malviya">
+  <script async src="https://cdn.ampproject.org/v0.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="icon" type="image/png" href="https://1.bp.blogspot.com/-i6Rh8kGbOtE/X_bxYeeEGDI/AAAAAAAAATE/YlO0irM5ORsFRG9ZGuIWJKAW0HabE_2JwCPcBGAYYCw/s720/Varun%2Blogo.png"/>
+  <title>Glad India</title>
+  <style amp-custom>
+
+/* The content from base.css */
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@600&display=swap');
+*{
+  margin: 0;
+ outline: none;
+}
+::selection {
+  background-color: #fbad50;
+  color: white;
+}
+body {
+  font-family: "Lato", sans-serif;
+}
+header{
+  padding:15px;
+  background-image: linear-gradient(to right,#e95950,#fbad50);
+  border-bottom: 0.01px solid white;
+  box-shadow: 1px 1px 6px black;
+}
+.logo{
+ width: 150px;
+ margin-left: 10px;
+}
+
+.sidenav {
+  float: right;
+  margin: 10px;
+}
+.sidenav a {
+  color: white;
+  padding: 5px;
+  text-decoration: none;
+  font-size: 25px;
+}
+.sidenav a:hover {
+  font-weight: bold;
+  font-size: 30px;
+}
+.bars, .closebtn{
+  display: none;
+}
+@media screen and (max-width: 960px){
+  header{
+    padding: 5px;
+  }
+ .logo{
+  width: 115px;
+  margin: 4px 10px 0px 0px;
+  float: right;
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  top: 0px;
+  left: 0;
+  background-image: linear-gradient(to right,#e95950,#fbad50);
+  overflow-x: hidden;
+  transition: 0.5s;
+  margin: 0px;
+  padding-top: 60px;
+}
+.container{
+  margin: 2px 6px 0px;
+}
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  box-shadow: 0px 0.1px white;
+  display: block;
+  transition: 0.3s;
+}
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  display: inline;
+  right: 20px;
+  padding: 30px;
+}
+.bars,.closebtn{
+  display: block;}
+}@media (prefers-color-scheme: dark) { 
+  body{
+    background-color: #160403;}
+ 
+  header {
+  background-image: linear-gradient(to right, #160403,#1a0000);}
+  .sidenav{
+  background-image: linear-gradient(to right, #160403,#1a0000);}
+}
+/* The animation code */
+@keyframes example {
+  0% {background-image: url(https://1.bp.blogspot.com/-TcrSnclXIZ0/X_iZ6wCradI/AAAAAAAAATo/mGHJIQdX9O882KWbvkg2Fwp5JXSbsUniQCLcBGAsYHQ/s320/PicsArt_01-08-11.12.02.jpg) ;}
+  25% {background-image: url(https://1.bp.blogspot.com/-RMGBV_1fmpA/X_idaBq9h6I/AAAAAAAAAT0/naaJPzp7gjw0ay1ElATJa3HdlsKNh_3swCLcBGAsYHQ/s320/PicsArt_01-08-11.12.55.jpg);}
+  50% {background-image: url(https://1.bp.blogspot.com/-d6-f6LZJCcM/X_idkSGhx8I/AAAAAAAAAT4/FMlpu5VP-ZUH-EbdNWP2JGGIgLnx1loCACLcBGAsYHQ/s320/PicsArt_01-08-11.10.09.jpg);}
+  75% {background-image: url(https://1.bp.blogspot.com/-7THR4o-Yyrs/X_idttm9oQI/AAAAAAAAAUA/n36ECQwcjN83SO9h2nJuEIK6U4uH8O0qwCLcBGAsYHQ/s320/PicsArt_01-08-11.06.15.jpg);}
+  100% {background-image: url(https://1.bp.blogspot.com/-vPEhAVIitiQ/X_id2jLYhzI/AAAAAAAAAUE/Gupouf_fgcwukZgU1BfEiV6oYnybQYChACLcBGAsYHQ/s320/PicsArt_01-08-11.05.32.jpg);}
+}
+
+/* The element to apply the animation to */
+.carousel{
+  width: 100%;
+  height: 240px;
+  text-align: center;
+  color: white;
+  text-shadow: 1px 1px black, -0.1px -0.1px black;
+  background-size: contain;
+  animation: example linear alternate 60s infinite;
+}
+ .carousel h1{
+  font-size: 27px;
+  padding-top: 135px;
+}
+.carousel button{
+  text-shadow: 0.2px 0.2px black, -0.1px -0.1px black;
+  padding: 4px 6px;
+  margin: 5px;
+  border: 1px groove white;
+  font-weight: bold;
+  color: white;
+  border-radius: 4px;
+  background-image: linear-gradient(to right,#e95950,#fbad50);
+}
+
+button:hover{
+ background-image: linear-gradient(to left,#e95950,#fbad50);
+}
+.title {
+  margin:15px;
+  text-align: center;
+  background-color: #F5F6F8;
+  background-size: cover;
+  padding: 20px;
+  text-shadow: 0.1px 0.1px 6px white;
+  border: 1px solid #F1F2F6 ;
+  border-radius: 10px;
+  
+}
+.title p{
+  filter: none;
+  overflow: hidden;
+  padding-top: 20px;
+  font-size: 20px;
+  text-shadow: 0.1px 0.1px 6px white;
+}
+
+.title p::first-letter {
+  font-size: xx-large;
+}
+footer{
+  padding: 25px;
+  text-align: center;
+  font-size: 30px;
+  background-image: linear-gradient(to right,#e95950,#fbad50);
+  color: white;
+}
+footer i a{
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+footer P{
+  padding-top: 10px;
+  font-size: 20px;
+}
+/*menu bar*/
+.container {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.bar1, .bar2, .bar3, .close1, .close2 {
+  width: 24px;
+  height: 2px;
+  margin: 6px;
+  transition: 0.4s;
+  background-color: #fff;
+}
+
+.close1 {
+  -webkit-transform: rotate(-45deg) translate(-4px, 4px);
+  transform: rotate(-45deg) translate(-4px, 4px);
+}
+.close2{
+  -webkit-transform: rotate(45deg) translate(-4px, -4px);
+  transform: rotate(45deg) translate(-4px, -4px);
+}
+@media screen and (max-width: 960px) {
+  
+.title{
+  padding: 10px;
+  text-shadow: 0.1px 0.1px 6px white;}
+  
+}
+@media (prefers-color-scheme: dark) {
+ 
+.title {
+  color: white;
+  background-color: #1a0000;}
+
+.carousel button{
+  background-image: linear-gradient(to right, #160403,#1a0000);}
+footer{
+  background-image: linear-gradient(to right, #160403,#1a0000);}
+}
+
+</style>
+</head>
+<body>
+  <header>
+<a><img class="logo" src="https://1.bp.blogspot.com/-wuWczOGfZ0o/X_iRo4U1G3I/AAAAAAAAATc/niGP86c3pVQKnh4x31jcVvzk-sXpWWRPQCLcBGAsYHQ/s320/PicsArt_01-08-10.33.20.png"></a>
+<div class="sidenav" id="mySidenav">
+  <i onclick="closeNav()">
+  <span class="closebtn">
+  <div class="close1"></div>
+  <div class="close2"></div>
+</span>
+</i>
+  <a href="#"> About</a>
+  <a href="#">Services</a>
+  <a href="#">Clients</a>
+  <a href="#">Contact</a>
+</div>
+<span onclick="openNav()"><div class="bars">
+<div class="container" onclick="myFunction(this)">
+ <div class="bar1"></div>
+ <div class="bar2"></div>
+ <div class="bar3"></div>
+</div>
+</div>
+</span>
+</header>
+<!-- END OF TOGGLE -->
+  <div class="carousel">
+   <h1 class="h1">Glad India</h1> 
+   <p> Let's Make Prasanna Bharat</p>
+   <button class="fa fa-heart"> &nbsp;
+ Like</button>
+   </div>
+ <main class="title">
+<p>
+ We welcome you at Glad India Online Services. It would take a novel to go into everything about Gald India Online Services. We are on our way to give every individual a sense of self respect and financial strenghth. At the back of our minds. We are often nagged by certain fears, the fears of an uncertain future, the insecurity of not being able to earn and safe enough. Let Glad India Online Services be the door of prosperity for you.Glad India Online Services believes in empowering its members with the opportunity to lead their lives on their own terms. With the motto of spreading Wellth, i.e. spreading wealth through wellness, Glad India Online Services has continued to enrich the lives of everyone who is a part of the company and those who believe in its products.
+</p>
+</main>
+  <footer>
+   <i><a class="fa fa-google" href="https://www.malviyatimes.com/"></a></i>
+   <i><a class="fa fa-twitter" href="https://twitter.com/malviyatimes"></a></i>
+    <p>© 2020 Glad India | Design by Malviya™</p>
+  </footer>
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "100%"}
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0px"}
+</script>
+</body>
+</html>
