@@ -1,94 +1,29 @@
-@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@600&display=swap');
-*{
-   margin: 0;
-   outline: none;
-}
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+*{ outline: none;
+    font-family:  sans-serif;
+    margin:0px; 
+    }
+ 
 body{
-    font-size: 20px;
-   /* background: #000032;
-    background: linear-gradient(to top right,#000032,#008BD6,rgb(1, 205, 231),#008BD6,#000032);*/
-
-   background: white;
-   color: white;
-   font-family: Arial, sans-serif;
-    
-}
-
-#result {
-   font-size: 18pt;
-   color: #000032;
-   margin: 20px 10px;
-   font-family: serif;
-   margin: 25px;
    font-weight: bold;
-}
-#result p, #result img{
-    text-align: center;
-    margin-top: 20px;
-    width: 100%;
-    border-radius: 50%;
-   
-}
+   font-size: 20px;
 
-#example{
-   font-family: 'Bodoni Moda', serif;
-   padding: 10px 20px;
-   background: url(https://cdn.hipwallpaper.com/i/39/43/UtXORn.jpg);
-   
-   border: 2px groove #008BD6;
-   background-size: cover;
-   border-radius: 6px;
-   margin: 10px;
-   margin-top: 70px;
-   
+  background: white;
 }
-.material-icons{
-        font-size: 35px;
-}
-input{
-   
-      border: 1px solid #008BD6;
-      padding: 8px;
-      width: 100%; 
-      box-sizing: border-box;
-      font-weight: bold;
-      text-align: right;
-      font-size: 20px;
-      border-radius: 6px; 
-}
-button{
-     
-      margin:12px 0px;
-      font-size: 25px;
-      background: #008BD6;
-      width: 100%;
-      padding: 5px 8px;
-      
-      box-sizing: border-box;
-      border: 1px solid white;
-      font-weight: bold;
-      border-radius: 6px; 
-      color: white;
-      
-}
-br
-{   content: "A" !important;
-    display: block !important;
-    margin-bottom: 0.5em !important;
-    border: 0.05px dotted #000032;
-}
-
 header{
   padding:15px;
+  /*background-image: linear-gradient(to left, #01FFE7,#008BD6);
+  */
   background: #008BD6;
   border-bottom: 0.01px solid white;
 }
 .logo{
- width: 150px;
+ width: 130px;
  margin-left: 10px;
 }
 
 .sidenav {
+        
   float: right;
   margin: 10px;
 }
@@ -106,12 +41,13 @@ header{
   display: none;
 }
 footer{
- 
+  
   padding: 25px;
   text-align: center;
   font-size: 30px;
   background: #008BD6;
   color: white;
+ 
 }
 footer a{
   text-decoration: none;
@@ -121,24 +57,26 @@ footer a{
 footer P{
   padding-top: 10px;
   font-size: 20px;
+  font-weight: normal;
 }
 @media screen and (max-width: 960px){
   header{
     padding: 5px;
     position: absolute;
-    top: 0;
-    left: 0;
+    top:0;
+    left:0;
     right: 0;
   }
  .logo{
   width: 95px;
-  margin: 0px;
-  top: 0;
-  position: relative;
+  margin: 4px 0px 0px 10px;
   float: left;
 }
 .bars{
         float: right;
+}
+.x{
+        margin-top: 50px;
 }
 .sidenav {
   height: 100%;
@@ -182,20 +120,156 @@ footer P{
   display: inline-block;
   cursor: pointer;
 }
-
-.bar1, .bar2, .bar3, .close1, .close2 {
-  width: 24px;
-  height: 2px;
-  margin: 6px;
-  transition: 0.4s;
-  background-color: #fff;
+.material-icons{
+        color: white;
+        font-size: 35px;
+        
+}
+label, input {
+  width: 100%;
+}
+label {
+       color: #000030;
+}
+input{
+  font-size: 20px;
+  padding: 5px 10px;
+  margin: 2px 0px 10px 0px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  color: #000032;
+  border: 1.5px solid #008BD6;
+  
+}
+#output{
+     float: right;
+     width: 80px;
+     height: 80px;
+     margin: 0px;
+     padding: 40px;
+}
+br{   
+    content: "A" !important;
+    display: block !important;
+    margin-bottom: 0.5em !important;
+    border: 0.1px dotted #008BD6;
+    
+}
+input:focus {
+  border: 1.5px dotted #008BD6;
+  font-weight: bold;
+  color: #008BD6;
+  background: transparent;
+  
+}
+button{
+      font-size: 25px;
+      background: #008BD6;
+      margin:20px;
+      width: 88%;
+      padding: 8px 10px;
+      border: none;
+      box-sizing: border-box;
+      border-radius: 6px; 
+      color: white;
+      font-weight: bold;
+}
+#demo{
+  border: 1.5px double #008BD6;
+  
+  border-radius: 6px;
+  padding: 20px;
+  font-size: 15px; 
+  margin: 20px;
+  background: white;
+} 
+#demo i{
+       
+        font-style: normal;
+}
+#demo b{
+        font-weight: normal;
+        color: gray;
+        
+}
+.x{
+        padding: 20px;
+}
+#myDIV{
+        display: none;
+        margin: 0px 20px;
+}
+#myDIV input{
+       
+       padding: 7px 10px; 
+   
+}
+.in{
+     color: #008BD6;
+     background: white;
+     border:1.5px solid #008BD6;
+  
+}
+.dhd{
+   font-weight: normal;
+   display: none;
+   
+   text-align: center;
+   font-family: 'Great Vibes', cursive;
 }
 
-.close1 {
-  -webkit-transform: rotate(-45deg) translate(-4px, 4px);
-  transform: rotate(-45deg) translate(-4px, 4px);
+@media screen and (min-width: 980px){
+  .x{
+     padding: 5%;
+        }
+label{
+   width: 30%; 
+   float: left;
+        }
+input{
+  width: 70%;
+ 
+  }
+ #myDIV input{
+    
+    margin: 0px 20px;
+    float: left;
+  }
+ .add1{
+     width: 25%;
+       
+     border: 1px solid black;
+ } 
+ .add2{
+         width: 65%;
+ } 
+  
 }
-.close2{
-  -webkit-transform: rotate(45deg) translate(-4px, -4px);
-  transform: rotate(45deg) translate(-4px, -4px);
+@media print{
+#demo{
+   border: none;
+   color: black;
+   word-spacing: 5px;
+}
+.dhd{
+        display: block;
+}
+ #myDIV input{
+    width: 45%; 
+    border: none;
+    display: none;
+    margin: 0px 20px;
+    float: left;
+  }
+header,button,footer,.x{
+      display: none;
+}
+
+#output{
+   width: 85px;
+   height:85px;
+   margin-right: 100px; }
+br{
+      border: none;
+}
 }

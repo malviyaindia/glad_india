@@ -4,16 +4,13 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=Edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Malviya Calculator, Number Powers Table up to 10, 2 to the power 10">
-  <meta name="keywords" content="Malviya Calculator, Number Powers Table up to 10, 2 to the power 10">
-  <meta name="author" content="John Doe">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <title>Malviya Calculator</title>
+   <script src="https://kit.fontawesome.com/ffd5d73771.js" crossorigin="anonymous"></script>
+  <title>HTML</title>
   <!-- HTML -->
   <!-- Custom Styles -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
- 
+
 </head>
 
 <body>
@@ -36,21 +33,47 @@
 </div>
 </div>
 </span>
-</header>  
- <div id="example">
- <h1> N<sup>n</sup> = </h1>
- <input type="number" id="first_name" autofocus>
-<button id="say">Calculate</button>
-</div>
-<div id="result">
-<p>Answer....</p>
+</header>      
+        <div class="x">
+<label>Full Name</label>
+<input type="text" id="fname" autofocus>
+<label>Last Name</label>
+<input type="text" id="lname" >
+<label>Date Of Birth</label>
+<input type="date" value="2021-01-01" id="date">
+<label>Education</label>
+<input type="text" id="edu">
+<label>Profession</label>
+<input type="text" id="pro">
+<label>Gender</label>
+<input type="text" id="gen" >
+<label>Mobile Number</label>
+<input type="number" id="mob">
+<label>Email</label>
+<input type="email" id="mail">
+<label>Height</label>
+<input type="text" id="height">
 
-</div>
-</div>
+<label>Weight</label>
+<input type="text" id="weight">
+
+<label for="file">Upload Image</label>
+<input type="file"  accept="image/*" name="image" id="file"  onchange="loadFile(event)">
+ </div>
+    <div id="myDIV" >
+   <input placeholder="Address" class="in add1" >
+   <input  placeholder="write your address" class="in add2" >
+   </div>
+   <button class="in"  onclick="fun()"> Add More +</button>
+<button onclick="data()" >Submit</button>
+<h1 class="dhd">Personal Biodata</h1>
+<img id="output"/> 
+<div id="demo"></div>
 
   <footer>
-   <i><a class="fa fa-google" href="https://www.malviyatimes.com/"></a></i>
-   <i><a class="fa fa-twitter" href="https://twitter.com/malviyatimes"></a></i>
+  <i><a class="fab fa-twitter" href="https://twitter.com/malviyatimes"></a></i>
+   <i><a class="fab fa-youtube" href="https://www.malviyatimes.com/"></a></i>
+  
     <p>© 2021, Design by Malviya™</p>
   </footer>
   <!-- Project -->
