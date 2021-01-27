@@ -7,7 +7,7 @@ function fun(){
 }
 
 document.getElementById('say').addEventListener('click', fun);
-// SideNav
+// SideNav Script
 function openNav() {
   document.getElementById("mySidenav").style.width = "100%"}
 function closeNav() {
