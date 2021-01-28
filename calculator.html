@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Malviya Calculator, Number Powers Table up to 10, 2 to the power 10">
+  <meta name="keywords" content="Malviya Calculator, Number Powers Table up to 10, 2 to the power 10">
+  <meta name="author" content="John Doe">
+  <script src="https://kit.fontawesome.com/ffd5d73771.js" crossorigin="anonymous"></script>
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <title>Malviya Calculator</title>
+  <!-- HTML -->
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="calculator.css">
+ 
+</head>
+
+<body>
+<header>
+<a><img class="logo" src="https://1.bp.blogspot.com/-rY12p5ezM9E/X6ewrH5LzOI/AAAAAAAAASM/i6YpdiOQUJgcPrRC2SFuK8A5JOfRdThNgCPcBGAYYCw/s320/PicsArt_11-08-02.14.48.png"></a>
+<div class="sidenav" id="mySidenav">
+  <i onclick="closeNav()">
+  <span class="closebtn">
+<i class="material-icons">close</i>
+</span>
+</i>
+  <a href="https://www.malviyatimes.com">Home</a>
+  <a href="https://www.malviyatimes.com/contact.html">Contact</a>
+</div>
+<span onclick="openNav()"><div class="bars">
+<div class="container" onclick="myFunction(this)">
+<i class="material-icons">menu</i>
+</div>
+</div>
+</span>
+</header>  
+ <div id="example">
+ <h1> N<sup>n</sup> = </h1>
+ <input type="number" id="numberinput" autofocus>
+<button id="say">Calculate</button>
+</div>
+<div id="result">
+<p>Answer....</p>
+</div>
+</div>
+
+  <footer>
+     <i><a class="fab fa-twitter" href="https://twitter.com/malviyatimes"></a></i>
+  <i><a class="fab fa-blogger-b" href="https://blog.malviyatimes.com" ></a> </i>
+   <i><a class="fab fa-youtube" href="https://youtube.malviyatimes.com"></a></i>
+    <p>© 2021 Malviya Times | Version 1.0</p>
+  </footer>
+  <!-- Project -->
+  <script src="calculator.js"></script>
+</body>
+</html>

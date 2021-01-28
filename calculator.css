@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@600&display=swap');
+*{
+   margin: 0;
+   outline: none;
+}
+body{
+    font-size: 20px;
+   /* background: #000032;
+    background: linear-gradient(to top right,#000032,#008BD6,rgb(1, 205, 231),#008BD6,#000032);*/
+
+   background: white;
+   color: white;
+   font-family: Arial, sans-serif;
+    
+}
+
+#result {
+   font-size: 18pt;
+   color: #000032;
+   margin: 20px 10px;
+   font-family: serif;
+   margin: 25px;
+   font-weight: bold;
+}
+#result p, #result img{
+    text-align: center;
+    margin-top: 20px;
+    width: 100%;
+    border-radius: 50%;
+   
+}
+
+#example{
+   font-family: 'Bodoni Moda', serif;
+   padding: 10px 20px;
+   background: url(https://cdn.hipwallpaper.com/i/39/43/UtXORn.jpg);
+   
+   border: 2px groove #008BD6;
+   background-size: cover;
+   border-radius: 6px;
+   margin: 10px;
+   margin-top: 70px;
+   
+}
+.material-icons{
+        font-size: 35px;
+}
+input{
+   
+      border: 1px solid #008BD6;
+      padding: 8px;
+      width: 100%; 
+      box-sizing: border-box;
+      font-weight: bold;
+      text-align: right;
+      font-size: 20px;
+      border-radius: 6px; 
+}
+button{
+     
+      margin:12px 0px;
+      font-size: 25px;
+      background: #008BD6;
+      width: 100%;
+      padding: 5px 8px;
+      
+      box-sizing: border-box;
+      border: 1px solid white;
+      font-weight: bold;
+      border-radius: 6px; 
+      color: white;
+      
+}
+br
+{   content: "A" !important;
+    display: block !important;
+    margin-bottom: 0.5em !important;
+    border: 0.05px dotted #000032;
+}
+
+header{
+  padding:15px;
+  background: #008BD6;
+  border-bottom: 0.01px solid white;
+}
+.logo{
+ width: 150px;
+ margin-left: 10px;
+}
+
+.sidenav {
+  float: right;
+  margin: 10px;
+}
+.sidenav a {
+  color: white;
+  padding: 5px;
+  text-decoration: none;
+  font-size: 25px;
+}
+.sidenav a:hover {
+  font-weight: bold;
+  font-size: 30px;
+}
+.bars, .closebtn{
+  display: none;
+}
+footer{
+ 
+  padding: 25px;
+  margin-top: 200px;
+  text-align: center;
+  font-size: 25px;
+  background: #008BD6;
+  color: white;
+}
+footer a{
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+footer P{
+  padding-top: 10px;
+  font-size: 16px;
+}
+@media screen and (max-width: 960px){
+  header{
+    padding: 5px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+ .logo{
+  width: 95px;
+  margin: 4px 0px 0px 10px;
+  top: 0;
+  position: relative;
+  float: left;
+}
+.bars{
+        float: right;
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  top: 0;
+  right:0;
+  background: #008BD6;
+  overflow-x: hidden;
+  transition: 0.5s;
+  margin: 0px;
+  padding-top: 60px;
+}
+.container{
+  margin: 2px 6px 0px;
+}
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  box-shadow: 0px 0.2px #008BD6;
+  display: block;
+  transition: 0.3s;
+}
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  display: inline;
+  right: 20px;
+  padding: 30px;
+}
+.bars,.closebtn{
+  display: block;}
+}
+
+
+
+/*menu bar*/
+.container {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.bar1, .bar2, .bar3, .close1, .close2 {
+  width: 24px;
+  height: 2px;
+  margin: 6px;
+  transition: 0.4s;
+  background-color: #fff;
+}
+
+.close1 {
+  -webkit-transform: rotate(-45deg) translate(-4px, 4px);
+  transform: rotate(-45deg) translate(-4px, 4px);
+}
+.close2{
+  -webkit-transform: rotate(45deg) translate(-4px, -4px);
+  transform: rotate(45deg) translate(-4px, -4px);
+}
