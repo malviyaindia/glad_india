@@ -39,7 +39,7 @@ body{
    background-size: cover;
    border-radius: 6px;
    margin: 10px;
-   margin-top: 70px;
+  margin-top: 70px;
    
 }
 .material-icons{
@@ -84,7 +84,7 @@ header{
   border-bottom: 0.01px solid white;
 }
 .logo{
- width: 150px;
+ width: 60px;
  margin-left: 10px;
 }
 
@@ -132,15 +132,15 @@ footer P{
     right: 0;
   }
  .logo{
-  width: 95px;
+  width: 45px;
   margin: 4px 0px 0px 10px;
-  top: 0;
-  position: relative;
   float: left;
 }
 .bars{
         float: right;
-}
+      
+       margin-top: 2px;
+} 
 .sidenav {
   height: 100%;
   width: 0;

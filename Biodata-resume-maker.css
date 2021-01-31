@@ -15,7 +15,7 @@ header{
   border-bottom: 0.01px solid white;
 }
 .logo{
- width: 130px;
+ width: 60px;
  margin-left: 10px;
 }
 
@@ -65,12 +65,14 @@ footer P{
     right: 0;
   }
  .logo{
-  width: 95px;
+  width: 45px;
   margin: 4px 0px 0px 10px;
   float: left;
 }
 .bars{
         float: right;
+      
+       margin-top: 2px;
 }
 .x{
         margin-top: 50px;
