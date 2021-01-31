@@ -171,15 +171,16 @@ button{
       color: white;
       font-weight: bold;
 }
-#demo{
-  border: 1.5px double #008BD6;
+.on3e{
   
   border-radius: 6px;
   padding: 20px;
   font-size: 15px; 
   margin: 20px;
   background: white;
-} 
+  border: 1.5px solid #008BD6;
+	
+}
 #demo i{
        
         font-style: normal;
@@ -197,8 +198,7 @@ button{
         margin: 0px 20px;
 }
 #myDIV input{
-       
-       padding: 7px 10px; 
+       padding: 5px; 
    
 }
 .in{
@@ -210,11 +210,20 @@ button{
 .dhd{
    font-weight: normal;
    display: none;
-   
    text-align: center;
    font-family: 'Great Vibes', cursive;
 }
-
+.add1,.add2{
+	color: #000030;
+}
+::placeholder {
+  color:#a6a6a6;
+}
+.fa-print{
+	display: none;
+	color: #008BD6;
+  background: transparent;
+}
 @media screen and (min-width: 980px){
   .x{
      padding: 5%;
@@ -227,29 +236,42 @@ input{
   width: 70%;
  
   }
+ #myDIV{
+ 	margin: 0px 40px;
+ } 
  #myDIV input{
-    
-    margin: 0px 20px;
+    margin: 10px;
     float: left;
+    background-position: border-box;
   }
+ 
  .add1{
      width: 25%;
-       
-     border: 1px solid black;
+     
  } 
  .add2{
-         width: 65%;
+         width: 70%;
  } 
+
   
 }
 @media print{
+	body{
+		color: #000030;
+	}
 #demo{
-   border: none;
-   color: black;
+   color: #000030;
    word-spacing: 5px;
 }
+
+#demo b{
+	color: #000030;
+}
+.on3e{
+	border: none;
+}
 .dhd{
-        display: block;
+      display: block;
 }
  #myDIV input{
     width: 45%; 
@@ -258,8 +280,11 @@ input{
     margin: 0px 20px;
     float: left;
   }
-header,button,footer,.x,.fas{
+header,button,footer,.x,.fa-print{
       display: none;
+     
+      visibility: hidden;
+ 
 }
 
 #output{

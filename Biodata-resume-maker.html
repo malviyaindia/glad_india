@@ -35,7 +35,7 @@
         <div class="x">
 <label>Full Name</label>
 <input type="text" id="fname" autofocus>
-<label>Last Name</label>
+<label>Father Name</label>
 <input type="text" id="lname" >
 <label>Date Of Birth</label>
 <input type="date" value="2021-01-01" id="date">
@@ -49,27 +49,32 @@
 <input type="number" id="mob">
 <label>Email</label>
 <input type="email" id="mail">
-<label>Height</label>
+<label>Address</label>
 <input type="text" id="height">
 
-<label>Weight</label>
+<label>Nationality</label>
 <input type="text" id="weight">
-
+<label>Marital Status</label>
+<input type="text" id="weight2">
 <label for="file">Upload Image</label>
 <input type="file"  accept="image/*" name="image" id="file"  onchange="loadFile(event)">
  </div>
     <div id="myDIV" >
-   <input placeholder="Address" class="in add1" >
-   <input  placeholder="write your address" class="in add2" >
+   <input placeholder="Example: your height" class="in add1" >
+   <input  placeholder="write your height" class="in add2" >
+    <input placeholder="Example: your weight" class="in add1" >
+   <input  placeholder="write your weight" class="in add2" >
    </div>
    <button class="in"  onclick="fun()"> Add More +</button>
 <button onclick="data()" >Submit</button>
 <h1 class="dhd">Personal Biodata</h1>
 <img id="output"/> 
+<div class="on3e" >
 <div id="demo">
-   
 </div>
- <button class="fas fa-print" onclick="print()" > Print</button>
+<button id="print" class="fas fa-print" onclick="print()" > Print</button>
+</div>
+<!-- footer area--->
   <footer>
   <i><a class="fab fa-twitter" href="https://twitter.com/malviyatimes"></a></i>
   <i><a class="fab fa-blogger-b" href="https://blog.malviyatimes.com" ></a> </i>
