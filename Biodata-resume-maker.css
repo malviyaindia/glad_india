@@ -37,6 +37,17 @@ header{
 .bars, .closebtn{
   display: none;
 }
+.xy{
+	margin: 0px 70px 0px 20px;
+}
+.on3e{
+	border-radius: 6px;
+  padding: 20px;
+  font-size: 15px; 
+  margin: 20px;
+  background: white;
+  border: 1.5px solid #008BD6;
+}
 footer{
   
   padding: 25px;
@@ -77,6 +88,10 @@ footer P{
 .x{
         margin-top: 50px;
 }
+.xy{
+	margin: 0px 40px 0px 0px;
+}
+
 .sidenav {
   height: 100%;
   width: 0;
@@ -165,7 +180,7 @@ button{
       font-size: 25px;
       background: #008BD6;
       margin:20px;
-      width: 88%;
+      width:100%;
       padding: 8px 10px;
       border: none;
       box-sizing: border-box;
@@ -173,16 +188,7 @@ button{
       color: white;
       font-weight: bold;
 }
-.on3e{
-  
-  border-radius: 6px;
-  padding: 20px;
-  font-size: 15px; 
-  margin: 20px;
-  background: white;
-  border: 1.5px solid #008BD6;
-	
-}
+
 #demo i{
        
         font-style: normal;
@@ -254,9 +260,14 @@ input{
  .add2{
          width: 70%;
  } 
-
-  
+ #output{
+ 	margin: 20px;
+ }
+  .on3e{
+  	margin: 40px;
+  }
 }
+
 @media print{
 	body{
 		color: #000030;
