@@ -1,10 +1,16 @@
 *{
     margin: 0px;
 }
+html{
+	height: 100%;
+}
 body {
      font-size: 10pt;
      font-family: sans-serif;
      color: white;
+     display: flex;
+   flex-direction: column;
+   height: 100%;
 }
 header{
         padding: 20px;
@@ -15,12 +21,12 @@ header{
     
 }
 img{
-        width: 40%;
+        width: 10%;
 }
 .h1{
         text-align: center;
         color: #008BD6;
-        padding: 20px 80px;
+        margin: 18px 40%;
         
         
         
@@ -62,14 +68,11 @@ a{
         background: linear-gradient( #01FFE7,#008BD6);
   
 }
-footer{
-  padding: 25px;
-  text-align: center;
-  font-size: 30px;
-  /*background:linear-gradient(to right, #01FFE7,#008BD6);*/
-  background: #008BD6;
-  color: white;
-  
+footer {
+    margin-top: auto;
+    padding: 20px;
+    text-align: center;
+    background: #008BD6;
 }
 footer i{
   text-decoration: none;
@@ -81,4 +84,13 @@ footer i{
 footer P{
   padding-top: 10px;
   font-size: 17px;
+}
+
+@media screen and (max-width: 970px){
+img{
+		width: 30%;}
+.h1{
+     margin: 5% 20%;
+        
+}
 }

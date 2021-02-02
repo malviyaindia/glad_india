@@ -3,11 +3,17 @@
     font-family:  sans-serif;
     margin:0px; 
     }
- 
+ html{
+ 	height: 100%;
+ }
 body{
    font-weight: bold;
    font-size: 20px;
-  background: white;
+   background: white;
+   display: flex;
+   flex-direction: column;
+   height: 100%;
+	
 }
 header{
   padding:15px;
@@ -20,7 +26,7 @@ header{
 }
 
 .sidenav {
-        
+       
   float: right;
   margin: 10px;
 }
@@ -37,20 +43,9 @@ header{
 .bars, .closebtn{
   display: none;
 }
-.xy{
-	margin: 0px 70px 0px 20px;
-}
-.on3e{
-	border-radius: 6px;
-  padding: 20px;
-  font-size: 15px; 
-  margin: 20px;
-  background: white;
-  border: 1.5px solid #008BD6;
-}
 footer{
-  
-  padding: 25px;
+  margin-top: auto;
+  padding: 20px;
   text-align: center;
   font-size: 30px;
   background: #008BD6;
@@ -88,10 +83,6 @@ footer P{
 .x{
         margin-top: 50px;
 }
-.xy{
-	margin: 0px 40px 0px 0px;
-}
-
 .sidenav {
   height: 100%;
   width: 0;
@@ -160,7 +151,7 @@ input{
      width: 80px;
      height: 80px;
      margin: 0px;
-     padding: 40px;
+  
 }
 br{   
     content: "A" !important;
@@ -180,7 +171,8 @@ button{
       font-size: 25px;
       background: #008BD6;
       margin:20px;
-      width:100%;
+      width: auto;
+     
       padding: 8px 10px;
       border: none;
       box-sizing: border-box;
@@ -188,7 +180,16 @@ button{
       color: white;
       font-weight: bold;
 }
-
+.on3e{
+  
+  border-radius: 6px;
+  padding: 20px;
+  font-size: 15px; 
+  margin: 20px;
+  background: white;
+  border: 1.5px solid #008BD6;
+	
+}
 #demo i{
        
         font-style: normal;
@@ -231,6 +232,8 @@ button{
 	display: none;
 	color: #008BD6;
   background: transparent;
+	text-align: center;
+
 }
 @media screen and (min-width: 980px){
   .x{
@@ -260,17 +263,14 @@ input{
  .add2{
          width: 70%;
  } 
- #output{
- 	margin: 20px;
- }
-  .on3e{
-  	margin: 40px;
-  }
-}
 
+  
+}
 @media print{
 	body{
 		color: #000030;
+
+		display:inherit
 	}
 #demo{
    color: #000030;
@@ -303,6 +303,7 @@ header,button,footer,.x,.fa-print{
 #output{
    width: 85px;
    height:85px;
+ 
    margin-right: 100px; }
 br{
       border: none;
