@@ -1,15 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Roboto&display=swap');
 *{ outline: none;
-    font-family:  sans-serif;
+   
+font-family:sans-serif;
+
     margin:0px; 
     }
  html{
  	height: 100%;
  }
 body{
-   font-weight: bold;
+   font-weight: normal;
    font-size: 20px;
-   background: white;
    display: flex;
    flex-direction: column;
    height: 100%;
@@ -17,12 +19,14 @@ body{
 }
 header{
   padding:15px;
-  background: #008BD6;
-  border-bottom: 0.01px solid white;
+ background: url(https://2.bp.blogspot.com/-Cunhwsdp0mY/XkwPhif1ZJI/AAAAAAAABbQ/QcKYgn8WpuggeTcr90fNXlmGQE0Mpy0JwCK4BGAYYCw/s480/hero-wrapper.png) ,linear-gradient(to bottom left,#00ccff,#008BD6);
+  border-bottom: 0.01px solid lightgray;
+  color: #008BD6;
 }
 .logo{
  width: 60px;
  margin-left: 10px;
+
 }
 
 .sidenav {
@@ -47,8 +51,8 @@ footer{
   margin-top: auto;
   padding: 20px;
   text-align: center;
-  font-size: 30px;
-  background: #008BD6;
+  font-size: 25px;
+  background: url(https://2.bp.blogspot.com/-Cunhwsdp0mY/XkwPhif1ZJI/AAAAAAAABbQ/QcKYgn8WpuggeTcr90fNXlmGQE0Mpy0JwCK4BGAYYCw/s480/hero-wrapper.png) ,linear-gradient(to bottom left,#00ccff,#008BD6);
   color: white;
  
 }
@@ -59,7 +63,7 @@ footer a{
 }
 footer P{
   padding-top: 10px;
-  font-size: 17px;
+  font-size: 16px;
   font-weight: normal;
 }
 @media screen and (max-width: 960px){
@@ -77,11 +81,10 @@ footer P{
 }
 .bars{
         float: right;
-      
        margin-top: 2px;
 }
-.x{
-        margin-top: 50px;
+.y{
+        margin-top: 20%;
 }
 .sidenav {
   height: 100%;
@@ -89,7 +92,7 @@ footer P{
   position: fixed;
   top: 0;
   right:0;
-  background: #008BD6;
+ background: url(https://2.bp.blogspot.com/-Cunhwsdp0mY/XkwPhif1ZJI/AAAAAAAABbQ/QcKYgn8WpuggeTcr90fNXlmGQE0Mpy0JwCK4BGAYYCw/s480/hero-wrapper.png) ,linear-gradient(to bottom left,#00ccff,#008BD6);
   overflow-x: hidden;
   transition: 0.5s;
   margin: 0px;
@@ -127,6 +130,7 @@ footer P{
 }
 .material-icons{
         color: white;
+        
         font-size: 35px;
         
 }
@@ -135,6 +139,7 @@ label, input {
 }
 label {
        color: #000030;
+       font-weight: bold;
 }
 input{
   font-size: 20px;
@@ -144,7 +149,7 @@ input{
   border-radius: 5px;
   color: #000032;
   border: 1.5px solid #008BD6;
-  
+ 
 }
 #output{
      float: right;
@@ -165,7 +170,6 @@ input:focus {
   font-weight: bold;
   color: #008BD6;
   background: transparent;
-  
 }
 button{
       font-size: 25px;
@@ -179,6 +183,11 @@ button{
       border-radius: 6px; 
       color: white;
       font-weight: bold;
+}
+button:hover{
+	background: #00ccff;
+	color: white;
+	border: none;
 }
 .on3e{
   
@@ -199,7 +208,7 @@ button{
         color: gray;
         
 }
-.x{
+.x,.y{
         padding: 20px;
 }
 #myDIV{
@@ -236,7 +245,7 @@ button{
 
 }
 @media screen and (min-width: 980px){
-  .x{
+  .x,.y{
      padding: 5%;
         }
 label{
@@ -293,7 +302,7 @@ input{
     margin: 0px 20px;
     float: left;
   }
-header,button,footer,.x,.fa-print{
+header,button,footer,.x,.y,.fa-print{
       display: none;
      
       visibility: hidden;

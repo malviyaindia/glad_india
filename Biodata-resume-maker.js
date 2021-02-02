@@ -32,7 +32,7 @@ let loadFile = function(event) {
 
   function fun(){
 let x = document.getElementById("myDIV");
-let a= document.getElementsByClassName('in')[2];
+let a= document.getElementsByClassName('in')[4];
 
   if (a.innerHTML === "remove", x.style.display === "block")
   {

@@ -10,8 +10,6 @@ body{
     font-size: 20px;
    /* background: #000032;
     background: linear-gradient(to top right,#000032,#008BD6,rgb(1, 205, 231),#008BD6,#000032);*/
-
-   background: white;
    color: white;
    font-family: Arial, sans-serif;
    display: flex;
@@ -26,6 +24,7 @@ body{
    font-family: serif;
    margin: 25px;
    font-weight: bold;
+   
 }
 #result p, #result img{
     text-align: center;
@@ -76,6 +75,11 @@ button{
       color: white;
       
 }
+button:hover{
+	background: #00ccff;
+	color: white;
+
+}
 br
 {   content: "A" !important;
     display: block !important;
@@ -85,7 +89,7 @@ br
 
 header{
   padding:15px;
-  background: #008BD6;
+  background: url(https://2.bp.blogspot.com/-Cunhwsdp0mY/XkwPhif1ZJI/AAAAAAAABbQ/QcKYgn8WpuggeTcr90fNXlmGQE0Mpy0JwCK4BGAYYCw/s480/hero-wrapper.png) ,linear-gradient(to bottom left,#00ccff,#008BD6);
   border-bottom: 0.01px solid white;
 }
 .logo{
@@ -116,7 +120,7 @@ footer{
   margin-top: auto;
   text-align: center;
   font-size: 25px;
-  background: #008BD6;
+  background: url(https://2.bp.blogspot.com/-Cunhwsdp0mY/XkwPhif1ZJI/AAAAAAAABbQ/QcKYgn8WpuggeTcr90fNXlmGQE0Mpy0JwCK4BGAYYCw/s480/hero-wrapper.png) ,linear-gradient(to bottom left,#00ccff,#008BD6);
   color: white;
   
 }
@@ -153,7 +157,7 @@ footer P{
   position: fixed;
   top: 0;
   right:0;
-  background: #008BD6;
+  background: url(https://2.bp.blogspot.com/-Cunhwsdp0mY/XkwPhif1ZJI/AAAAAAAABbQ/QcKYgn8WpuggeTcr90fNXlmGQE0Mpy0JwCK4BGAYYCw/s480/hero-wrapper.png) ,linear-gradient(to bottom left,#00ccff,#008BD6);
   overflow-x: hidden;
   transition: 0.5s;
   margin: 0px;

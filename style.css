@@ -16,17 +16,17 @@ header{
         padding: 20px;
         font-size: 20px;
         text-align: center;
-        background: #008BD6;/*
+        background: url(https://2.bp.blogspot.com/-Cunhwsdp0mY/XkwPhif1ZJI/AAAAAAAABbQ/QcKYgn8WpuggeTcr90fNXlmGQE0Mpy0JwCK4BGAYYCw/s480/hero-wrapper.png) ,linear-gradient(to bottom left,#00ccff,#008BD6);/*
       background: linear-gradient( to left, #01FFE7,#008BD6);*/
     
 }
 img{
-        width: 10%;
+        width: 30%;
 }
 .h1{
         text-align: center;
         color: #008BD6;
-        margin: 18px 40%;
+        margin: 10% 2% 0% 2%;
         
         
         
@@ -45,12 +45,13 @@ i{   color: white;
 }
 .div1{
       
-        background:linear-gradient(to top left,#008BD6,#01FFE7);
+        
+        background: url(https://2.bp.blogspot.com/-Cunhwsdp0mY/XkwPhif1ZJI/AAAAAAAABbQ/QcKYgn8WpuggeTcr90fNXlmGQE0Mpy0JwCK4BGAYYCw/s480/hero-wrapper.png) ,linear-gradient(to bottom left,#01FFE7,#008BD6);
         box-shadow: 7px 7px 6px lightgray;
         width: 95%;
-        margin:20px 0px;
+        margin:8% 0%;
         
-        padding: 10px;
+        padding: 2%;
         border-radius: 10px;
 }
 a{
@@ -65,14 +66,14 @@ a{
      
 }
 .div1:hover {
-        background: linear-gradient( #01FFE7,#008BD6);
+   background: url(https://2.bp.blogspot.com/-Cunhwsdp0mY/XkwPhif1ZJI/AAAAAAAABbQ/QcKYgn8WpuggeTcr90fNXlmGQE0Mpy0JwCK4BGAYYCw/s480/hero-wrapper.png) ,linear-gradient(#01FFE7,#008BD6);   
   
 }
 footer {
     margin-top: auto;
     padding: 20px;
     text-align: center;
-    background: #008BD6;
+    background: url(https://2.bp.blogspot.com/-Cunhwsdp0mY/XkwPhif1ZJI/AAAAAAAABbQ/QcKYgn8WpuggeTcr90fNXlmGQE0Mpy0JwCK4BGAYYCw/s480/hero-wrapper.png) ,linear-gradient(to bottom left,#00ccff,#008BD6);
 }
 footer i{
   text-decoration: none;
@@ -83,14 +84,17 @@ footer i{
 }
 footer P{
   padding-top: 10px;
-  font-size: 17px;
+  font-size: 16px;
 }
 
-@media screen and (max-width: 970px){
+@media screen and (min-width: 979px){
 img{
-		width: 30%;}
+		width: 15%;}
 .h1{
-     margin: 5% 20%;
-        
+     margin: 5% 20% 0% 20%;
+}
+.div1{
+	margin: 5% 10%;
+	width: 75%;
 }
 }
