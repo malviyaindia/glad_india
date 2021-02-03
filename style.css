@@ -47,7 +47,7 @@ i{   color: white;
       
         
         background: url(https://2.bp.blogspot.com/-Cunhwsdp0mY/XkwPhif1ZJI/AAAAAAAABbQ/QcKYgn8WpuggeTcr90fNXlmGQE0Mpy0JwCK4BGAYYCw/s480/hero-wrapper.png) ,linear-gradient(to bottom left,#01FFE7,#008BD6);
-        box-shadow: 7px 7px 6px lightgray;
+        box-shadow: 6px 6px 6px lightgray;
         width: 95%;
         margin:8% 0%;
         
@@ -67,7 +67,7 @@ a{
 }
 .div1:hover {
    background: url(https://2.bp.blogspot.com/-Cunhwsdp0mY/XkwPhif1ZJI/AAAAAAAABbQ/QcKYgn8WpuggeTcr90fNXlmGQE0Mpy0JwCK4BGAYYCw/s480/hero-wrapper.png) ,linear-gradient(#01FFE7,#008BD6);   
-  
+   box-shadow: 6px 6px 6px lightblue;
 }
 footer {
     margin-top: auto;

@@ -20,7 +20,7 @@ body{
 header{
   padding:15px;
  background: url(https://2.bp.blogspot.com/-Cunhwsdp0mY/XkwPhif1ZJI/AAAAAAAABbQ/QcKYgn8WpuggeTcr90fNXlmGQE0Mpy0JwCK4BGAYYCw/s480/hero-wrapper.png) ,linear-gradient(to bottom left,#00ccff,#008BD6);
-  border-bottom: 0.01px solid lightgray;
+  border-bottom: 0px solid lightgray;
   color: #008BD6;
 }
 .logo{
@@ -66,6 +66,20 @@ footer P{
   font-size: 16px;
   font-weight: normal;
 }
+.y{
+background: url(https://2.bp.blogspot.com/-Cunhwsdp0mY/XkwPhif1ZJI/AAAAAAAABbQ/QcKYgn8WpuggeTcr90fNXlmGQE0Mpy0JwCK4BGAYYCw/s480/hero-wrapper.png);
+
+}
+.y h2 ,.y p{
+	background: linear-gradient(transparent,rgba(0, 0, 0,0.22),transparent);
+	
+  background: -webkit-linear-gradient(#00ccff,#008BD6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.xx{
+	background: url(https://2.bp.blogspot.com/-Cunhwsdp0mY/XkwPhif1ZJI/AAAAAAAABbQ/QcKYgn8WpuggeTcr90fNXlmGQE0Mpy0JwCK4BGAYYCw/s480/hero-wrapper.png) ;
+}
 @media screen and (max-width: 960px){
   header{
     padding: 5px;
@@ -84,7 +98,8 @@ footer P{
        margin-top: 2px;
 }
 .y{
-        margin-top: 20%;
+        margin-top: 15%;
+       
 }
 .sidenav {
   height: 100%;
@@ -174,7 +189,7 @@ input:focus {
 button{
       font-size: 25px;
       background: #008BD6;
-      margin:20px;
+      margin: 5%;
       width: auto;
      
       padding: 8px 10px;
@@ -194,9 +209,11 @@ button:hover{
   border-radius: 6px;
   padding: 20px;
   font-size: 15px; 
-  margin: 20px;
+  margin: 5%;
   background: white;
   border: 1.5px solid #008BD6;
+  border: none;
+  box-shadow: 1px 1px 6px gray;
 	
 }
 #demo i{
@@ -239,8 +256,8 @@ button:hover{
 }
 .fa-print{
 	display: none;
-	color: #008BD6;
-  background: transparent;
+	color : white;
+  background: #008BD6;
 	text-align: center;
 
 }
@@ -290,7 +307,7 @@ input{
 	color: #000030;
 }
 .on3e{
-	border: none;
+	box-shadow: none;
 }
 .dhd{
       display: block;
