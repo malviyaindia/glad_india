@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>HTML</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+     <form name="frm">
+
+    <center>
+
+    <h1>....Simple Interest Calculation....</h1>
+
+     <div id="div">
+
+    <table id="t1">
+
+     <caption> </caption>
+
+     <tr> 
+     <td>Amount Rs/-
+     </td>
+
+     <td> 
+
+     <input type="text" name="amount" id="amount" value="" class="input" min="0"  onkeyup="AllowNumber()"/>
+      </td>
+     </tr>
+
+      <tr>
+      <td>Rate Rs/-
+    </td>
+
+       <td><input type="text" name="rate" id="per" value="" min="0" max="3"     class="input" />
+     </td>
+    </tr>
+
+   <tr>
+   <td>Time peroid:</td>
+   <td>
+    <input type="number" name="time" value="" id="time" min="0" class="input"/>
+
+   <select id="peroid" class="choice">
+
+  <option>Choose</option>
+
+  <option value="year">Year</option>
+
+  <option value="month">Month</option>
+
+  <option value="weeks">Weeks</option>
+
+   <option value="days">Days</option>
+
+   </select>
+
+   </td>
+
+   </tr>
+
+   <tr>
+
+   <td>
+Total Interest:
+   </td>
+
+    <td>
+    <input type="text" id="interest" value="" name="interest" class="input" readonly/>
+  </td>
+  </tr>
+
+  <tr><td>TotalAmount:</td>
+    <td><input type="text" id="total" name="total" value="" class="input" readonly/></td></tr>
+
+    <tr>
+   <td><input type="button" name="cal" id="cal" value="Calculate" class="cal" onclick="cali()"/>
+   </td>
+
+     <td><input type="reset" name="clear" id="cal" value="Clear" class="cal"/>    </td></tr>
+    </table>
+   </center>
+    </div>
+  </form>
+<script>
+    //Empty text box validation
+
+ function cali()
+ {
+   var p,r,n,y,m,w,d;
+  if(document.frm.amount.value == "" )
+   {
+   alert("PLEASE ENTER PRINCIPLE AMOUNT");
+    document.frm.amount.alert();
+   }
+   else if(document.frm.rate.value=="")
+  {
+   alert("ENTER RATE OF INTEREST");
+   document.frm.rate.blur();
+   }
+
+   if(parseFloat(per.value)>100)//text box allow only range of within 100
+   {
+    alert("Please Enter The Interest Rate Less Then 100");
+     per[i].focus();
+    return (false);
+  }
+
+   if(parseFloat(per.value)<0)//text box allow only range of Greater Than Zero
+   {
+     alert("Please Enter The Interest Rate Greater then 0");
+     per[i].focus();
+     return (false);
+   }
+
+     if(!document.getElementById("per").value.match(/^[0-9]*\.?[0-9]*$/))//text box allow only numbers and allow only one dot
+    {
+  alert("Enter Correct Interest Rate");
+   return (false);
+   }
+   else if(document.frm.time.value=="")
+   {
+    alert("ENTER NUMBER OF TIME PERIOD");
+    document.frm.time.prompt();
+   }
+   else
+  {
+  p=parseInt(document.frm.amount.value);
+
+  r=parseFloat(document.frm.rate.value);
+
+  n=parseInt(document.frm.time.value);
+
+   peroid=document.getElementById("peroid").value;
+
+   if(peroid=="year")// per year calculation
+   {
+    y=(p*r*n)/100;
+    document.frm.interest.value="Rs :" +Math.ceil(y);
+  }
+
+   else if(peroid=="month")//per month calculation
+  {
+   m=(p*r*(n/12))/100;
+  document.frm.interest.value="Rs :" +Math.ceil(m);
+  }
+
+   else if(peroid=="weeks")//per week calculation
+    {
+  var w=(p*r*(n/52))/100;
+   document.frm.interest.value="Rs :" + Math.ceil(w);
+   }
+
+
+    else if(peroid=="days")//per days calculation
+   {
+   d=(p*r*(n/365))/100;
+   document.frm.interest.value="Rs :" + Math.ceil(d);
+  }
+
+    document.frm.total.value="Rs:"+Math.ceil((p+m)||(p+y)||(p+w)||(p+d));
+   }
+   }
+
+   //Text Box Allow Only The Numeric Values not allow single dot or char
+
+   function AllowNumber(){
+   if (!frm.amount.value.match(/[0-9]+$/) && frm.amount.value !="")
+    {
+       frm.amount.value="";
+     frm.amount.focus();
+    alert("Please Enter only Numers In This Field");
+    }
+    }
+
+</script>
+
+ <!-- <script src="main.js"></script>-->
+</body>
+</html>
