@@ -1,11 +1,18 @@
 function fun(){
-    var num = document.getElementById('first_name').value;
-   
-   var total = ( num+'<sup>2</sup> = ' + num*num + '<br>'+ num+'<sup>3</sup> = ' + num*num*num +'<br>'+num+'<sup>4</sup> = '+ num*num*num*num + '<br>'+ num+'<sup>5</sup> = '+ num*num*num*num*num +'<br>'+ num+'<sup>6</sup> = '+ num*num*num*num*num*num +'<br>'+ num+'<sup>7</sup> = '+ num*num*num*num*num*num*num +'<br>'+ num+'<sup>8</sup> = '+ num*num*num*num*num*num*num*num +'<br>'+ num+'<sup>9</sup> = '+ num*num*num*num*num*num*num*num*num +'<br>'+ num+'<sup>10</sup> = '+ num*num*num*num*num*num*num*num*num*num +'<br>'+num+'<sup>11</sup> = '+ num*num*num*num*num*num*num*num*num*num*num +'<br>'+num+'<sup>12</sup> = '+ num*num*num*num*num*num*num*num*num*num*num*num +'<br>'+num+'<sup>13</sup> = '+ num*num*num*num*num*num*num*num*num*num*num*num*num +'<br>'+num+'<sup>14</sup> = '+ num*num*num*num*num*num*num*num*num*num*num*num*num*num +'<br>'+num+'<sup>15</sup> = '+ num*num*num*num*num*num*num*num*num*num*num*num*num*num*num +'<br>');
-   
-   document.getElementById('result').innerHTML = total;
-}
+	let P = document.getElementsByClassName("si")[0].value;
 
+let R = document.getElementsByClassName("si")[1].value;
+
+let T = document.getElementsByClassName("si")[2].value;
+let M = document.getElementById("all").options[0].value;
+
+let X = T;
+let Y = P*R*X
+let Z = 1200;
+let SI = Y/Z;
+
+document.getElementById('result').innerHTML = "Simple Interest = "+SI;
+}
 document.getElementById('say').addEventListener('click', fun);
 // SideNav Script
 function openNav() {

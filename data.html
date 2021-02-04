@@ -7,12 +7,13 @@
   <meta name="description" content="Malviya Calculator, Number Powers Table up to 10, 2 to the power 10">
   <meta name="keywords" content="Malviya Calculator, Number Powers Table up to 10, 2 to the power 10">
   <meta name="author" content="John Doe">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   
+      <script src="https://kit.fontawesome.com/ffd5d73771.js" crossorigin="anonymous"></script>
      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <title>Malviya Calculator</title>
   <!-- HTML -->
   <!-- Custom Styles -->
-  <link rel="stylesheet" href="data.css">
+  <link rel="stylesheet" href="calculator.css">
  
 </head>
 
@@ -38,8 +39,18 @@
 </span>
 </header>  
  <div id="example">
- <h1> N<sup>n</sup> = </h1>
- <input type="number" id="first_name" autofocus>
+
+ <input type="number" class="si" autofocus>
+  
+ <input type="number" class="si" autofocus>
+  <label><i class="far fa-calendar-alt"></i></label> Time</label>
+ <input type="number" class="si" autofocus>
+<select name="all" id="all" size=3>
+<option value="1" selected>1</option>  
+<option value="2">2</option>  
+<option value="3">3</option>
+</select>
+
 <button id="say">Calculate</button>
 </div>
 <div id="result">

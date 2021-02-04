@@ -11,7 +11,7 @@
   <!-- HTML -->
   <!-- Custom Styles -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link rel="stylesheet" href="simple-interest-calculator.css">
+  <link rel="stylesheet" href="Biodata-resume-maker.css">
 
 </head>
 
@@ -33,51 +33,58 @@
 </div>
 </div>
 </span>
-</header>
+</header>  
 <div class="y">
-<h2> Simple Interest Calculator </h2>
+<h2>Biodata Resume Maker </h2>
 <p> Create  free awesome and job winning resume within 1 to 2 minute.</p>	
 </div>
-<div class="div1" >
-     <form name="frm">
-   <label> <i class="fas fa-rupee-sign"></i> Principal</label>
-     <input type="number" name="amount" id="amount" value="" class="input" min="0"  onkeyup="AllowNumber()"/>
-      
-   <label> <i class="fas fa-percent"></i> Rate</label>
-     <input type="number" name="rate" id="per" value="" min="0" max="3"     class="input" />
-     
-   <label><i class="far fa-calendar-alt"></i> Time Period</label>
 
-   <select id="peroid" class="choice">
- 
-  <option value="year">Years</option>
+        <div class="x">
+<label>Full Name</label>
+<input type="text" id="fname" autofocus>
+<label>Father Name</label>
+<input type="text" id="lname" >
+<label>Date Of Birth</label>
+<input type="date" value="2021-01-01" id="date">
+<label>Education</label>
+<input type="text" id="edu">
+<label>Profession</label>
+<input type="text" id="pro">
+<label>Gender</label>
+<input type="text" id="gen" >
+<label>Mobile Number</label>
+<input type="number" id="mob">
+<label>Email</label>
+<input type="email" id="mail">
+<label>Address</label>
+<input type="text" id="height">
 
-  <option value="month">Months</option>
-
-  <option value="weeks">Weeks</option>
-
-   <option value="days">Days</option>
-   </select>
-      <input type="number" name="time" value="" id="time" min="0" class="input"/>
-
-
-
-<label><i class="fas fa-chart-pie"></i> Interest</label>
- 
-    <input type="text" id="interest" value="" name="interest" class="input" readonly/>
-  
- <label><i class="fas fa-coins"></i> Total Amount</label>
-    <input type="text" id="total" name="total" value="" class="input" readonly/>
-
-    
-   <input type="button" name="cal" id="cal" value="Calculate" class="cal" onclick="cali()"/>
-   
-
-     <input type="reset" name="clear" id="cal" value="Clear" class="cal"/>
-
-  </form>
-  </div>
-  <!-- footer area--->
+<label>Nationality</label>
+<input type="text" id="weight">
+<label>Marital Status</label>
+<input type="text" id="weight2">
+<label for="file">Upload Image</label>
+<input type="file"  accept="image/*" name="image" id="file"  onchange="loadFile(event)">
+ </div>
+    <div id="myDIV" >
+   <input placeholder="Example: your height" class="in add1" >
+   <input  placeholder="write your height" class="in add2" >
+    <input placeholder="Example: your weight" class="in add1" >
+   <input  placeholder="write your weight" class="in add2" >
+   </div>
+   <button class="in"  onclick="fun()"> Add More +</button>
+<button onclick="data()" >Submit</button>
+<h1 class="dhd">Personal Biodata</h1>
+<hr>
+<div class="xx">
+<div class="on3e" >
+<img id="output"/> 
+<div id="demo">
+</div>
+<button id="print" class="fas fa-print" onclick="window.print()" > Print</button>
+</div>
+</div>
+<!-- footer area--->
   <footer>
   <i><a class="fab fa-twitter" href="https://twitter.com/malviyatimes"></a></i>
   <i><a class="fab fa-blogger-b" href="https://blog.malviyatimes.com" ></a> </i>
@@ -85,8 +92,7 @@
   
     <p>© 2021 Malviya Times | Version 1.0</p>
   </footer>
-  
-
-  <script charset="utf-8" src="simple-interest-calculator.js"></script>
+  <!-- Project -->
+  <script src="Biodata-resume-maker.js"></script>
 </body>
 </html>

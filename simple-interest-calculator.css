@@ -10,78 +10,81 @@ body{
     font-size: 20px;
    /* background: #000032;
     background: linear-gradient(to top right,#000032,#008BD6,rgb(1, 205, 231),#008BD6,#000032);*/
-   color: white;
+   color: #000030;
    font-family: Arial, sans-serif;
    display: flex;
    flex-direction: column;
    height: 100%; 
+  
 }
 
 #result {
    font-size: 18pt;
    color: #000032;
-   margin: 20px 10%; 
-  
-  font-family: serif;
+   margin: 20px 10px; 
+   font-family: serif;
+   margin: 25px;
    font-weight: bold;
    
 }
-#result p, #result img{
-    text-align: center;
-    margin-top: 20px;
-    width: 100%;
-    border-radius: 50%;
-   
+.y{
+	background: url(https://2.bp.blogspot.com/-Cunhwsdp0mY/XkwPhif1ZJI/AAAAAAAABbQ/QcKYgn8WpuggeTcr90fNXlmGQE0Mpy0JwCK4BGAYYCw/s480/hero-wrapper.png),white;
+	 margin-top: 15%;
+	 padding: 5%;
 }
-
-#example{
-   font-family: 'Bodoni Moda', serif;
-   padding: 10px 20px;
- background: url(https://2.bp.blogspot.com/-Cunhwsdp0mY/XkwPhif1ZJI/AAAAAAAABbQ/QcKYgn8WpuggeTcr90fNXlmGQE0Mpy0JwCK4BGAYYCw/s480/hero-wrapper.png);
-  box-shadow: 1px 1px 4px gray;
-  margin: 2% 10%;
-  color: #008BD6;
+	h2,div p{
+  margin:  5% auto;
+   /*background: linear-gradient(transparent,rgba(0, 0, 0,0.22),transparent);*/
+	
+  background: -webkit-linear-gradient(#00ccff,#008BD6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;}
+.div1{
+  font-weight: bold; 
+  margin: 5% 10%;
    
 }
 .material-icons{
         font-size: 35px;
+        color: white;
 }
 
-input{
+input,select{
    
-      border: 1px solid #008BD6;
-      padding: 8px;
+      border: 1.2px solid #008BD6;
+      padding: 5px;
       width: 100%; 
       box-sizing: border-box;
+      margin: 2% 0;
       font-weight: bold;
       text-align: right;
       font-size: 20px;
       border-radius: 6px; 
 }
-button{
-     
-      margin:12px 0px;
+#cal {
+     border: none;
+      text-align: center;
       font-size: 25px;
       background: #008BD6;
       width: 100%;
       padding: 5px 8px;
       
       box-sizing: border-box;
-      border: 1px solid white;
+     
       font-weight: bold;
       border-radius: 6px; 
       color: white;
       
 }
-button:hover{
+#cal:hover{
 	background: #00ccff;
 	color: white;
-
+ 
 }
 br
 {   content: "A" !important;
     display: block !important;
-    margin-bottom: 0.5em !important;
+    margin-bottom: 1em !important;
     border: 0.05px dotted #000032;
 }
 
@@ -130,6 +133,7 @@ footer a{
 footer P{
   padding-top: 10px;
   font-size: 16px;
+  
 }
 @media screen and (max-width: 960px){
   header{
@@ -144,12 +148,6 @@ footer P{
   margin: 4px 0px 0px 10px;
   float: left;
 }
-
-#example{
-	margin: 15% 0%;
-}
-
-
 .bars{
         float: right;
       
