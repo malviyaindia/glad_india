@@ -35,9 +35,11 @@ body{
 }
 
 #example{
-   font-family: 'Bodoni Moda', serif;
-   padding: 10px 20px;
- background: url(https://2.bp.blogspot.com/-Cunhwsdp0mY/XkwPhif1ZJI/AAAAAAAABbQ/QcKYgn8WpuggeTcr90fNXlmGQE0Mpy0JwCK4BGAYYCw/s480/hero-wrapper.png);
+   font-family:  Georgia, 'Times New Roman', Times, serif;
+   font-weight: normal;
+   
+   padding: 20px 20px;
+   background: url(https://2.bp.blogspot.com/-Cunhwsdp0mY/XkwPhif1ZJI/AAAAAAAABbQ/QcKYgn8WpuggeTcr90fNXlmGQE0Mpy0JwCK4BGAYYCw/s480/hero-wrapper.png);
   box-shadow: 1px 1px 4px gray;
   margin: 2% 10%;
   color: #008BD6;
