@@ -7,17 +7,13 @@ html{
 	height: 100%;
 }
 body{
-    font-size: 20px;
-   /* background: #000032;
-    background: linear-gradient(to top right,#000032,#008BD6,rgb(1, 205, 231),#008BD6,#000032);*/
+   font-size: 20px;
    color: #000030;
    font-family: Arial, sans-serif;
    display: flex;
    flex-direction: column;
    height: 100%; 
-  
 }
-
 #result {
    font-size: 18pt;
    color: #000032;
@@ -28,29 +24,25 @@ body{
    
 }
 .y{
-	background: url(https://2.bp.blogspot.com/-Cunhwsdp0mY/XkwPhif1ZJI/AAAAAAAABbQ/QcKYgn8WpuggeTcr90fNXlmGQE0Mpy0JwCK4BGAYYCw/s480/hero-wrapper.png),white;
-	 margin-top: 15%;
-	 padding: 5%;
+	 margin: 5% 10%;
+	 border-bottom: 1px solid #008BD6;
 }
-	h2,div p{
-  margin:  5% auto;
-   /*background: linear-gradient(transparent,rgba(0, 0, 0,0.22),transparent);*/
-	
-  background: -webkit-linear-gradient(#00ccff,#008BD6);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;}
 .div1{
   font-weight: bold; 
-  margin: 5% 10%;
-   
+  margin: 0% 10%;
 }
 .material-icons{
         font-size: 35px;
         color: white;
 }
-
+.version{
+   display: none;
+  }
+label {
+ text-shadow: 0.5px 0.5px lightgray;
+}
 input,select{
-   
+      box-shadow: 1px 1px 2px lightgray;
       border: 1.2px solid #008BD6;
       padding: 5px;
       width: 100%; 
@@ -62,7 +54,7 @@ input,select{
       border-radius: 6px; 
 }
 #cal {
-     border: none;
+      border: 1.2px solid white;
       text-align: center;
       font-size: 25px;
       background: #008BD6;
@@ -87,6 +79,7 @@ br
     margin-bottom: 1em !important;
     border: 0.05px dotted #000032;
 }
+
 
 header{
   padding:15px;
@@ -116,10 +109,8 @@ header{
   display: none;
 }
 footer{
- 
   padding: 20px;
   margin-top: auto;
-  text-align: center;
   font-size: 25px;
   background: url(https://2.bp.blogspot.com/-Cunhwsdp0mY/XkwPhif1ZJI/AAAAAAAABbQ/QcKYgn8WpuggeTcr90fNXlmGQE0Mpy0JwCK4BGAYYCw/s480/hero-wrapper.png) ,linear-gradient(to bottom left,#00ccff,#008BD6);
   color: white;
@@ -132,19 +123,19 @@ footer a{
 }
 footer P{
   padding-top: 10px;
-  font-size: 16px;
+  font-size: 15px;
   
 }
 @media screen and (max-width: 960px){
   header{
-    padding: 5px;
+    padding: 6px;
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
   }
  .logo{
-  width: 45px;
+  width: 50px;
   margin: 4px 0px 0px 10px;
   float: left;
 }
@@ -186,4 +177,18 @@ footer P{
 }
 .bars,.closebtn{
   display: block;}
+
+ .version{
+    display: block;
+    position: absolute; 
+    bottom: 15%; 
+    margin: 0% 30%;
+    color: white;
+  }
+  .y{
+    margin: 20% 5% 0%;
+  }
+ .div1{
+   margin: 10% 5%;
+ } 
 }

@@ -89,19 +89,9 @@
      frm.amount.focus();
     alert("Please Enter only Numers In This Field");
     }
-    
 }
-
-function openNav(){
-  
-  document.getElementById("mySidenav").style.width= "99.9%";
- 
-  
-}
-function closeNav(){
-  
-  document.getElementById("mySidenav").style= "width: 0%";
-  
-}
-
-
+// SideNav Script
+function openNav() {
+  document.getElementById("mySidenav").style.width = "100%"}
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0px"}

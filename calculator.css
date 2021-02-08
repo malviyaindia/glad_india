@@ -18,29 +18,34 @@ body{
 }
 
 #result {
+  box-shadow: 1px 1px 3px lightgray;
+   border: 1.2px solid #008BD6;
    font-size: 18pt;
    color: #000032;
-   margin: 20px 10%; 
-  
-  font-family: serif;
+   margin: 10px 10%; 
    font-weight: bold;
-   
+   border-radius: 6px; 
+   box-sizing: border-box; 
+   margin: 0; 
+   padding: 8px; 
+   background: white; 
+   font-family: sans-serif; 
+   text-align: left;
 }
-#result p, #result img{
+#example h1{
     text-align: center;
-    margin-top: 20px;
-    width: 100%;
-    border-radius: 50%;
+    margin: 10px;
+    font-family: 'Tinos',serif; padding: 10px 0; font-weight: normal;
+    text-shadow: 1px 1px 5px lightgray;
+ 
    
 }
 
 #example{
    font-family:  Georgia, 'Times New Roman', Times, serif;
    font-weight: normal;
-   
-   padding: 20px 20px;
-   background: url(https://2.bp.blogspot.com/-Cunhwsdp0mY/XkwPhif1ZJI/AAAAAAAABbQ/QcKYgn8WpuggeTcr90fNXlmGQE0Mpy0JwCK4BGAYYCw/s480/hero-wrapper.png);
-  box-shadow: 1px 1px 4px gray;
+  padding: 20px 20px;
+  border-bottom: 1px solid gray;
   margin: 2% 10%;
   color: #008BD6;
    
@@ -48,10 +53,14 @@ body{
 .material-icons{
         font-size: 35px;
 }
+.version{
+ display: none;
+  }
 
 input{
    
-      border: 1px solid #008BD6;
+     box-shadow: 1px 1px 3px lightgray;
+     border: 1.2px solid #008BD6;
       padding: 8px;
       width: 100%; 
       box-sizing: border-box;
@@ -61,15 +70,14 @@ input{
       border-radius: 6px; 
 }
 button{
-     
+     box-shadow: 1px 1px 3px lightgray;
+      border: 1.2px solid white;
       margin:12px 0px;
       font-size: 25px;
       background: #008BD6;
       width: 100%;
       padding: 5px 8px;
-      
       box-sizing: border-box;
-      border: 1px solid white;
       font-weight: bold;
       border-radius: 6px; 
       color: white;
@@ -118,7 +126,7 @@ footer{
  
   padding: 20px;
   margin-top: auto;
-  text-align: center;
+
   font-size: 25px;
   background: url(https://2.bp.blogspot.com/-Cunhwsdp0mY/XkwPhif1ZJI/AAAAAAAABbQ/QcKYgn8WpuggeTcr90fNXlmGQE0Mpy0JwCK4BGAYYCw/s480/hero-wrapper.png) ,linear-gradient(to bottom left,#00ccff,#008BD6);
   color: white;
@@ -131,18 +139,24 @@ footer a{
 }
 footer P{
   padding-top: 10px;
-  font-size: 16px;
+  font-size: 15px;
+}
+.about{
+  color: #000030; 
+  margin: 0% 10% 10% 10%;
+  text-align: center;
+  font-family: sans-serif;
 }
 @media screen and (max-width: 960px){
   header{
-    padding: 5px;
+    padding: 6px;
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
   }
  .logo{
-  width: 45px;
+  width: 50px;
   margin: 4px 0px 0px 10px;
   float: left;
 }
@@ -153,8 +167,7 @@ footer P{
 
 
 .bars{
-        float: right;
-      
+       float: right;
        margin-top: 2px;
 } 
 .sidenav {
@@ -190,4 +203,10 @@ footer P{
 }
 .bars,.closebtn{
   display: block;}
-}
+ .version{
+    display: block;
+    position: absolute; 
+    bottom: 15%; 
+    margin: 0% 30%;
+    color: white;
+  }}
