@@ -33,7 +33,7 @@ body{
 }
 .material-icons{
         font-size: 35px;
-        color: white;
+        color:  #008BD6;
 }
 .version{
    display: none;
@@ -83,11 +83,12 @@ br
 
 header{
   padding:15px;
-  background: url(https://2.bp.blogspot.com/-Cunhwsdp0mY/XkwPhif1ZJI/AAAAAAAABbQ/QcKYgn8WpuggeTcr90fNXlmGQE0Mpy0JwCK4BGAYYCw/s480/hero-wrapper.png) ,linear-gradient(to bottom left,#00ccff,#008BD6);
-  border-bottom: 0.01px solid white;
+  background: white;
+  box-shadow: 0px 0.1px 3px gray;
 }
 .logo{
  width: 60px;
+ border-radius: 5px;
  margin-left: 10px;
 }
 
@@ -96,7 +97,7 @@ header{
   margin: 10px;
 }
 .sidenav a {
-  color: white;
+  color: #000030;
   padding: 5px;
   text-decoration: none;
   font-size: 25px;
@@ -128,15 +129,15 @@ footer P{
 }
 @media screen and (max-width: 960px){
   header{
-    padding: 6px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
+   padding: 6px;
+  top: 0;
+  right: 0;
+  left: 0;
+  background:white;
   }
  .logo{
-  width: 50px;
-  margin: 4px 0px 0px 10px;
+  width: 40px;
+  margin: 0px 0px 0px 10px;
   float: left;
 }
 .bars{
@@ -150,7 +151,7 @@ footer P{
   position: fixed;
   top: 0;
   right:0;
-  background: url(https://2.bp.blogspot.com/-Cunhwsdp0mY/XkwPhif1ZJI/AAAAAAAABbQ/QcKYgn8WpuggeTcr90fNXlmGQE0Mpy0JwCK4BGAYYCw/s480/hero-wrapper.png) ,linear-gradient(to bottom left,#00ccff,#008BD6);
+  background: white;
   overflow-x: hidden;
   transition: 0.5s;
   margin: 0px;
@@ -163,7 +164,7 @@ footer P{
   padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 25px;
-  color: white;
+  color: #000030;
   box-shadow: 0px 0.2px #008BD6;
   display: block;
   transition: 0.3s;
@@ -183,7 +184,7 @@ footer P{
     position: absolute; 
     bottom: 15%; 
     margin: 0% 30%;
-    color: white;
+    color: #000030;
   }
   .y{
     margin: 20% 5% 0%;

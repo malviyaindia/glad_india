@@ -19,14 +19,13 @@ body{
 }
 header{
   padding:15px;
- background: url(https://2.bp.blogspot.com/-Cunhwsdp0mY/XkwPhif1ZJI/AAAAAAAABbQ/QcKYgn8WpuggeTcr90fNXlmGQE0Mpy0JwCK4BGAYYCw/s480/hero-wrapper.png) ,linear-gradient(to bottom left,#00ccff,#008BD6);
-  border-bottom: 0px solid lightgray;
-  color: #008BD6;
+  background:white;
+  box-shadow: 0px 0.1px 3px gray;
 }
 .logo{
  width: 60px;
  margin-left: 10px;
-
+ border-radius: 5px;
 }
 
 .sidenav {
@@ -35,7 +34,7 @@ header{
   margin: 10px;
 }
 .sidenav a {
-  color: white;
+  color:  #000030;
   padding: 5px;
   text-decoration: none;
   font-size: 25px;
@@ -65,24 +64,31 @@ footer P{
   font-size: 15px;
   font-weight: normal;
 }
+.y{
+background: url(https://2.bp.blogspot.com/-Cunhwsdp0mY/XkwPhif1ZJI/AAAAAAAABbQ/QcKYgn8WpuggeTcr90fNXlmGQE0Mpy0JwCK4BGAYYCw/s480/hero-wrapper.png);
 
+}
+.y h2 ,.y p{
+	background: linear-gradient(transparent,rgba(0, 0, 0,0.22),transparent);
+	
+  background: -webkit-linear-gradient(#00ccff,#008BD6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 .xx{
 	background: url(https://2.bp.blogspot.com/-Cunhwsdp0mY/XkwPhif1ZJI/AAAAAAAABbQ/QcKYgn8WpuggeTcr90fNXlmGQE0Mpy0JwCK4BGAYYCw/s480/hero-wrapper.png) ;
 }
-.version{
-    display: none;
-  }
 @media screen and (max-width: 960px){
   header{
-    padding: 6px;
-    position: absolute;
+    padding: 5px;
+    position: fixed;
     top:0;
     left:0;
     right: 0;
   }
  .logo{
-  width: 50px;
-  margin: 4px 0px 0px 10px;
+  width: 40px;
+  margin: 0px 0px 0px 10px;
   float: left;
 }
 .bars{
@@ -90,7 +96,8 @@ footer P{
        margin-top: 2px;
 }
 .y{
-  margin-top: 15%;
+        margin-top: 15%;
+       
 }
 .sidenav {
   height: 100%;
@@ -98,7 +105,7 @@ footer P{
   position: fixed;
   top: 0;
   right:0;
- background: url(https://2.bp.blogspot.com/-Cunhwsdp0mY/XkwPhif1ZJI/AAAAAAAABbQ/QcKYgn8WpuggeTcr90fNXlmGQE0Mpy0JwCK4BGAYYCw/s480/hero-wrapper.png) ,linear-gradient(to bottom left,#00ccff,#008BD6);
+  background: white;
   overflow-x: hidden;
   transition: 0.5s;
   margin: 0px;
@@ -111,7 +118,6 @@ footer P{
   padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 25px;
-  color: white;
   box-shadow: 0px 0.2px #008BD6;
   display: block;
   transition: 0.3s;
@@ -125,14 +131,11 @@ footer P{
 }
 .bars,.closebtn{
   display: block;}
-  
 .version{
     display: block;
     position: absolute; 
     bottom: 15%; 
     margin: 0% 30%;
-    color: white;
-  }
 }
 
 
@@ -143,8 +146,7 @@ footer P{
   cursor: pointer;
 }
 .material-icons{
-        color: white;
-        
+        color: #008BD6;
         font-size: 35px;
         
 }
@@ -258,6 +260,7 @@ button:hover{
 	color : white;
   background: #008BD6;
 	text-align: center;
+
 }
 @media screen and (min-width: 980px){
   .x,.y{
