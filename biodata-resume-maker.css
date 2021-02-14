@@ -296,43 +296,31 @@ input{
 @media print{
 	body{
 		color: #000030;
-
-		display:inherit
-	}
+		display:inherit	}
 #demo{
    color: #000030;
-   word-spacing: 5px;
-}
+   word-spacing: 5px;}
 
 #demo b{
-	color: #000030;
-}
+	color: #000030;}
 .on3e{
-	box-shadow: none;
-}
+	box-shadow: none;}
 .dhd{
-      display: block;
-}
+      display: block;}
  #myDIV input{
     width: 45%; 
     border: none;
     display: none;
     margin: 0px 20px;
-    float: left;
-  }
-header,button,footer,.x,.y,.fa-print{
-      display: none;
-     
-      visibility: hidden;
- 
-}
+    float: left; }
+
+header,button,footer,.x,.y,.fa-print
+{ display: none;
+  visibility: hidden;}
 
 #output{
    width: 85px;
    height:85px;
- 
-   margin-right: 100px; }
-br{
-      border: none;
-}
+   margin-right: 100px;  }
+br{ border: none;}
 }
