@@ -1,9 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Roboto&display=swap');
 *{ outline: none;
-   
-font-family:sans-serif;
-
+  font-family:sans-serif;
     margin:0px; 
     }
  html{
@@ -67,13 +65,6 @@ footer P{
 .y{
 background: url(https://2.bp.blogspot.com/-Cunhwsdp0mY/XkwPhif1ZJI/AAAAAAAABbQ/QcKYgn8WpuggeTcr90fNXlmGQE0Mpy0JwCK4BGAYYCw/s480/hero-wrapper.png);
 
-}
-.y h2 ,.y p{
-	background: linear-gradient(transparent,rgba(0, 0, 0,0.22),transparent);
-	
-  background: -webkit-linear-gradient(#00ccff,#008BD6);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 .xx{
 	background: url(https://2.bp.blogspot.com/-Cunhwsdp0mY/XkwPhif1ZJI/AAAAAAAABbQ/QcKYgn8WpuggeTcr90fNXlmGQE0Mpy0JwCK4BGAYYCw/s480/hero-wrapper.png) ;
@@ -260,8 +251,7 @@ button:hover{
 	color : white;
   background: #008BD6;
 	text-align: center;
-
-}
+}}
 @media screen and (min-width: 980px){
   .x,.y{
      padding: 5%;
@@ -290,12 +280,11 @@ input{
  .add2{
          width: 70%;
  } 
-
-  
 }
 @media print{
 	body{
 		color: #000030;
+		display:inherit
 		}
 #demo{
    color: #000030;
@@ -316,6 +305,7 @@ input{
 
 header,button,footer,.x,.y,.fa-print
 { display: none;
+   visibility: hidden;
   
 }
 
