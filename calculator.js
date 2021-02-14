@@ -1,3 +1,6 @@
+// PWA related
+self.addEventListener('fetch', function(event) {});
+
 function fun(){
     var num = document.getElementById('numberinput').value;
    

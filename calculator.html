@@ -11,15 +11,35 @@
   <script src="https://kit.fontawesome.com/ffd5d73771.js" crossorigin="anonymous"></script>
      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
    <link rel="icon" href="https://pbs.twimg.com/media/EtN6qDSWgAE_Pel?format=png&name=small" >
+   	<link rel="manifest" href="manifest.webmanifest">
   <title>Malviya Calculator</title>
   <!-- HTML -->
   <!-- Custom Styles -->
   <link rel="stylesheet" href="calculator.css">
  
 </head>
+<style>
+.add-to{
+  margin: 0 10%;
+  padding: 0;
+  width: 0%;
+  display: inline;
+} .add-to-btn{
+   display: inline;
+    border: none;
+    box-shadow: none;
+    width: 30%;
+    padding: 6px 0;
+    font-size: 20px;
+    margin: 2px 0;
+  }
+</style>
 <body>
 <header>
-<a><img class="logo" src="https://pbs.twimg.com/media/EtN6qDSWgAE_Pel?format=png&name=small"></a>
+<a><img class="logo" src="https://m.malviyatimes.com/malviyatimes.svg"></a>
+  <a><div class="add-to">
+				<button class="add-to-btn fab fa-google-play "> Install</button>
+			</div></a>
 <div class="sidenav" id="mySidenav">
   <i onclick="closeNav()">
   <span class="closebtn">
@@ -66,5 +86,6 @@ With the help of Malviya calculator, you can easily find the square cube of any 
   </footer>
   <!-- Project -->
   <script charset="utf-8" src="calculator.js"></script>
+  <script src="a2hs.js"></script>
 </body>
 </html>
