@@ -296,7 +296,7 @@ input{
 @media print{
 	body{
 		color: #000030;
-		display:inherit	}
+		}
 #demo{
    color: #000030;
    word-spacing: 5px;}
@@ -316,7 +316,8 @@ input{
 
 header,button,footer,.x,.y,.fa-print
 { display: none;
-  visibility: hidden;}
+  
+}
 
 #output{
    width: 85px;
