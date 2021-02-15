@@ -73,18 +73,11 @@ input,select{
 	color: white;
  
 }
-br
-{   content: "A" !important;
-    display: block !important;
-    margin-bottom: 1em !important;
-    border: 0.05px dotted #000032;
-}
-
-
 header{
   padding:15px;
   background: white;
   box-shadow: 0px 0.1px 3px gray;
+
 }
 .logo{
  width: 60px;
@@ -110,12 +103,12 @@ header{
   display: none;
 }
 footer{
-  padding: 20px;
+  text-align: right;
+  padding: 5%;
   margin-top: auto;
-  font-size: 25px;
-  background: url(https://2.bp.blogspot.com/-Cunhwsdp0mY/XkwPhif1ZJI/AAAAAAAABbQ/QcKYgn8WpuggeTcr90fNXlmGQE0Mpy0JwCK4BGAYYCw/s480/hero-wrapper.png) ,linear-gradient(to bottom left,#00ccff,#008BD6);
+  font-size: 20px;
+  background: url(https://2.bp.blogspot.com/-Cunhwsdp0mY/XkwPhif1ZJI/AAAAAAAABbQ/QcKYgn8WpuggeTcr90fNXlmGQE0Mpy0JwCK4BGAYYCw/s480/hero-wrapper.png) ,linear-gradient(to top ,#00ccff,#008BD6);
   color: white;
-  
 }
 footer a{
   text-decoration: none;
@@ -124,12 +117,18 @@ footer a{
 }
 footer P{
   padding-top: 10px;
-  font-size: 15px;
+  font-size: 12px;
   
+}
+.addthis_inline_share_toolbox{
+  text-align: center;
+  padding: 30px ;
+  border-radius: 20px;
+  font-weight: normal;
 }
 @media screen and (max-width: 960px){
   header{
-   padding: 6px;
+  padding: 6px;
   top: 0;
   right: 0;
   left: 0;
@@ -190,6 +189,6 @@ footer P{
     margin: 20% 5% 0%;
   }
  .div1{
-   margin: 10% 5%;
+   margin: 5% 5%;
  } 
 }
