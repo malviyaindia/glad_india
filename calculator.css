@@ -123,7 +123,7 @@ header{
   display: none;
 }
 footer{
-  text-align: right;
+  text-align: center;
   padding: 20px;
   margin-top: auto;
   font-size: 20px;
@@ -149,7 +149,7 @@ footer P{
 
 .addthis_inline_share_toolbox{
   text-align: center;
-  color: #000030;
+  color: #000030!important;
   padding: 30px ;
   border-radius: 20px;
 }
